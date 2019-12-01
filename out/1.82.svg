@@ -1,0 +1,7 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg width='880px' height='880px' xmlns='http://www.w3.org/2000/svg'>
+<rect fill='white' stroke='none' x='0' y='0' width='880' height='880'/>
+<polygon fill='red' stroke='red' points='715.468896,594.413299 715.468896,594.290376 715.610216,594.219603 715.879131,594.118688 716.064195,594.118688 716.064195,594.241611 715.922875,594.312384 715.653960,594.413299 ' fill-opacity='0.5'/>
+<polygon fill='cornflowerblue' stroke='black' points='715.000001,598.125000 715.000001,591.250000 721.875001,591.250000 721.875001,598.125000 ' fill-opacity='0.5'/>
+</svg>

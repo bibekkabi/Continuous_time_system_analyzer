@@ -1,0 +1,16 @@
+#!/bin/bash
+
+P=pict/oct
+WIDTH=7cm
+
+rm -rf pdf
+mkdir -p pdf
+for i in out/*.svg; do rsvg-convert -f pdf -o pdf/`basename $i .svg`.pdf $i; done
+OUT=pdf/*
+SORTED=`echo $OUT | sort`
+N=1
+for i in $SORTED; do 
+    X=`basename $i .pdf | sed s/0*//`
+    echo "  \\only<$N>{\\begin{tabular}{c}\\includegraphics[width=$WIDTH]{$P/`basename $i`}\\\\iterate $X\\end{tabular}}%"
+    let N=N+1
+done

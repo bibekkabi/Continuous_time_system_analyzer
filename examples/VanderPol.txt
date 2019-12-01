@@ -1,0 +1,25 @@
+/*
+  An abstract fixpoint solver based on Constraint Programming
+
+  Example file: ellipsoid shape
+  
+  Author: Antoine Mine
+  Copyright 2015
+*/
+
+
+init {
+  x=[0,0];
+  y=[0,0];
+}
+
+body {
+  t=0.998*x + 0.10525*y - 0.025*x*x*y;
+  y=0.01*x*x*x + 1.10851*y - 0.5525*x*x*y + 0.125*x*x*x*x*y - 0.0421*x - 0.05*x*y*y;
+  x=t;
+}
+
+goal {
+  x=[-1.2,1.2];
+  y=[-1.2,1.2];
+}

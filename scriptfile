@@ -1,0 +1,23 @@
+#!/bin/bash
+clear
+echo "Welcome to the world of Apron"
+#./solve --octagon examples/VanderPol_new.txt
+sed -e 's/local_var_1/x/g;s/local_var_2/y/g;s/x^2/x*x/g;s/x^3/x*x*x/g;s/x^4/x*x*x*x/g;s/x^5/x*x*x*x*x/g;s/x^6/x*x*x*x*x*x/g;s/y^2/y*y/g;s/y^3/y*y*y/g;s/y^4/y*y*y*y/g;s/y^5/y*y*y*y*y/g;s/y^6/y*y*y*y*y*y/g;s/local_t/0.02/g;s/0.02^2/0.0004/g;s/0.02^3/0.000008/g;s/0.02^4/0.00000016/g;s/0.02^5/0.0000000032/g;s/0.02^6/0.000000000064/g;s/,[^*]*]//g;s/\(\[\|\]\)//g' vanderpol.flow > test
+
+awk '{for(i=1;i<=NF;i++) { if ($i ~ /^[0-9]/ || $i ~ /^-[0-9]/) {printf ("%.15f"), $i} else {printf $i}}}' test > test1
+
+sed -e 's/y=.*//g' test1 > test2
+
+sed 's/y=.*/\n&/g' test1 > test3
+
+sed 's/$/;/' test3 > test4
+
+#sed $'s/y=.*/&\\\n&/' test1 > test3
+
+#sed -e 's/local_var_1/x/g;s/local_var_2/y/g;s/x^2/x*x/g;s/x^3/x*x*x/g;s/x^4/x*x*x*x/g;s/x^5/x*x*x*x*x/g;s/x^6/x*x*x*x*x*x/g;s/y^2/y*y/g;s/y^3/y*y*y/g;s/y^4/y*y*y*y/g;s/y^5/y*y*y*y*y/g;s/y^6/y*y*y*y*y*y/g;s/local_t/0.02/g;s/0.02^2/0.0004/g;s/0.02^3/0.000008/g;s/0.02^4/0.00000016/g;s/0.02^5/0.0000000032/g;s/0.02^6/0.000000000064/g;s/, [+-[0-9]*\.[0-9]*//g;s/]//g;s/[[]//g;s/ e[+-][0-9]//g' vanderpol.flow > test
+
+
+#sed -re 's\/local_var_1\/x\/g;s\/local_var_2\/y\/g;s\/x^2\/x*x\/g;s\/x^3\/x*x*x\/g;s\/x^4\/x*x*x*x\/g;s\/x^5\/x*x*x*x*x\/g;s\/x^6\/x*x*x*x*x*x\/g;s\/y^2\/y*y\/g;s\/y^3\/y*y*y\/g;s\/y^4\/y*y*y*y\/g;s\/y^5\/y*y*y*y*y\/g;s\/y^6\/y*y*y*y*y*y\/g;s\/local_t\/0.02\/g;s\/0.02^2\/0.0004\/g;s\/0.02^3\/0.000008\/g;s\/0.02^4\/0.00000016\/g;s\/0.02^5\/0.0000000032\/g;s\/0.02^6\/0.000000000064\/g;s\/, [+-[0-9]*\.[0-9]*\/\/g;s\/]\/\/g;s\/[[]\/\/g;s\/ e[+-][0-9]\/\/g' < vanderpol.flow > test
+
+
+#s/\(\[\|\]\)//g

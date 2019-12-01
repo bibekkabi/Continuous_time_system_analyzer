@@ -1,0 +1,31 @@
+<polygon fill='lightsalmon' stroke='black' points='385.000000,838.750000 385.000000,825.000000 398.750000,825.000000 398.750000,838.750000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='508.750000,770.000000 508.750000,756.250000 522.500000,756.250000 522.500000,770.000000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='371.250000,838.750000 371.250000,825.000000 385.000000,825.000000 385.000000,838.750000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='426.250000,82.500000 426.250000,68.750000 440.000000,68.750000 440.000000,82.500000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='522.500000,756.250000 522.500000,742.500000 536.250000,742.500000 536.250000,756.250000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='330.000000,137.500000 330.000000,123.750001 343.750000,123.750001 343.750000,137.500000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='357.500000,123.750001 357.500000,110.000001 371.250000,110.000001 371.250000,123.750001 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='385.000000,110.000000 385.000000,96.250000 398.750000,96.250000 398.750000,110.000000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='440.000000,68.750000 440.000000,55.000000 453.750000,55.000000 453.750000,68.750000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='440.000000,811.250000 440.000000,797.500000 453.750000,797.500000 453.750000,811.250000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='412.500000,825.000000 412.500000,811.250000 426.250000,811.250000 426.250000,825.000000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='398.750000,96.250000 398.750000,82.500000 412.500000,82.500000 412.500000,96.250000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='481.250000,783.750000 481.250000,770.000000 495.000000,770.000000 495.000000,783.750000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='591.250000,728.750000 591.250000,715.000000 605.000000,715.000000 605.000000,728.750000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='343.750000,137.500000 343.750000,123.750001 357.500000,123.750001 357.500000,137.500000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='508.750000,756.250000 508.750000,742.500000 522.500000,742.500000 522.500000,756.250000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='550.000000,756.250000 550.000000,742.500000 563.750000,742.500000 563.750000,756.250000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='385.000000,123.750001 385.000000,110.000001 398.750000,110.000001 398.750000,123.750001 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='536.250000,742.500000 536.250000,728.750000 550.000000,728.750000 550.000000,742.500000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='426.250000,825.000000 426.250000,811.250000 440.000000,811.250000 440.000000,825.000000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='536.250000,756.250000 536.250000,742.500000 550.000000,742.500000 550.000000,756.250000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='316.250000,137.500000 316.250000,123.750001 330.000000,123.750001 330.000000,137.500000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='412.500000,96.250000 412.500000,82.500000 426.250000,82.500000 426.250000,96.250000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='385.000000,852.500000 385.000000,838.750000 398.750000,838.750000 398.750000,852.500000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='453.750000,68.750000 453.750000,55.000000 467.500000,55.000000 467.500000,68.750000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='398.750000,838.750000 398.750000,825.000000 412.500000,825.000000 412.500000,838.750000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='467.500000,68.750000 467.500000,55.000000 481.250000,55.000000 481.250000,68.750000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='426.250000,811.250000 426.250000,797.500000 440.000000,797.500000 440.000000,811.250000 ' fill-opacity='0.5'/>
+<polygon fill='lightsalmon' stroke='black' points='467.500000,797.500000 467.500000,783.750000 481.250000,783.750000 481.250000,797.500000 ' fill-opacity='0.5'/>
+
+
