@@ -1,0 +1,32 @@
+# file vanderpolnew.model
+
+continuous reachability
+{
+ state var x,y # declare the state variables
+ 
+ setting
+ {
+  fixed steps 0.0007 # time step size
+  time 0.0007 # time horizon
+  remainder estimation 1e-5 # [-1e-5,1e-5] in each dimension
+  QR precondition # the preconditioning technique
+  gnuplot octagon x,y # plotting file is in Gnuplot format
+  adaptive orders { min {x:4 , y:4} , max {x:8 , y:8} } # TM orders
+  cutoff 1e-15 # cutoff threshold
+  precision 53 # precision in the computation
+  output vanderpol # name for the output files
+  print on # display the computation steps
+ }
+ poly ode 1 # use the integration scheme Poly ODE 1
+ {
+  x' = 2*y
+  y' = 2.1*y - 0.8*x - 10*x^2*y
+ }
+ init # specify the initial set
+  {
+   x in [-1.2 , 1.2]
+   y in [-1.2 , 1.2]
+  }
+}
+
+
