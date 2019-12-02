@@ -12,6 +12,18 @@ sed 's/y=.*/\n&/g' test1 > test3
 
 sed 's/$/;/' test3 > test4
 
+sed 's/x=/t=/g' test4 > test5
+
+sed -e "\$ax=t;" test5 > test6
+
+sed -i '1s/^/body { /' test6
+
+sed -i "\$a}" test6 
+
+sed -i '1s/^/init { x=[0,0]; y=[0,0];} /' test6
+
+sed -i "\$agoal { x=[-3,3]; y=[-3,3]; }" test6
+
 #sed $'s/y=.*/&\\\n&/' test1 > test3
 
 #sed -e 's/local_var_1/x/g;s/local_var_2/y/g;s/x^2/x*x/g;s/x^3/x*x*x/g;s/x^4/x*x*x*x/g;s/x^5/x*x*x*x*x/g;s/x^6/x*x*x*x*x*x/g;s/y^2/y*y/g;s/y^3/y*y*y/g;s/y^4/y*y*y*y/g;s/y^5/y*y*y*y*y/g;s/y^6/y*y*y*y*y*y/g;s/local_t/0.02/g;s/0.02^2/0.0004/g;s/0.02^3/0.000008/g;s/0.02^4/0.00000016/g;s/0.02^5/0.0000000032/g;s/0.02^6/0.000000000064/g;s/, [+-[0-9]*\.[0-9]*//g;s/]//g;s/[[]//g;s/ e[+-][0-9]//g' vanderpol.flow > test

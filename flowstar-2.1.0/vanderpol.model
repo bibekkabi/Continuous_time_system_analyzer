@@ -7,11 +7,11 @@ continuous reachability
  setting
  {
   fixed steps 0.02 # time step size
-  time 6.96 # time horizon
+  time 0.02 # time horizon
   remainder estimation 1e-5 # [-1e-5,1e-5] in each dimension
   QR precondition # the preconditioning technique
   gnuplot octagon x,y # plotting file is in Gnuplot format
-  adaptive orders { min {x:4 , y:4} , max {x:7 , y:7} } # TM orders
+  adaptive orders { min {x:4 , y:4} , max {x:6 , y:6} } # TM orders
   cutoff 1e-15 # cutoff threshold
   precision 53 # precision in the computation
   output vanderpol # name for the output files
